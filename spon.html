@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Industry Sponsors</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --blue:#1e3a8a;
+  --blue-soft:#3b82f6;
+  --blue-light:#eef4ff;
+  --dark:#0f172a;
+  --gray:#64748b;
+  --white:#ffffff;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins',sans-serif;
+}
+
+body{
+  background:linear-gradient(180deg,var(--blue-light),#ffffff);
+  color:var(--dark);
+}
+
+/* ================= SPONSORS ================= */
+.sponsors-section{
+  padding:90px 18px 110px;
+}
+
+.sponsors-title{
+  text-align:center;
+  font-size:40px;
+  font-weight:700;
+  color:var(--blue);
+  margin-bottom:12px;
+}
+
+.sponsors-subtitle{
+  text-align:center;
+  font-size:15px;
+  color:var(--gray);
+  max-width:760px;
+  margin:0 auto 70px;
+  line-height:1.8;
+}
+
+/* ---------- TIER ---------- */
+.tier{
+  max-width:1200px;
+  margin:0 auto 90px;
+}
+
+.tier-title{
+  font-size:19px;
+  font-weight:600;
+  margin-bottom:34px;
+  padding-left:16px;
+  position:relative;
+}
+
+.tier-title::before{
+  content:'';
+  position:absolute;
+  left:0;
+  top:2px;
+  width:5px;
+  height:22px;
+  border-radius:6px;
+  background:linear-gradient(180deg,var(--blue),var(--blue-soft));
+}
+
+/* ---------- GRID ---------- */
+.tier-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:28px;
+}
+
+/* ---------- CARD ---------- */
+.sponsor-card{
+  background:rgba(255,255,255,0.95);
+  border-radius:20px;
+  padding:36px 20px;
+  text-align:center;
+  border:1px solid rgba(30,58,138,0.1);
+  box-shadow:0 12px 30px rgba(30,58,138,0.1);
+  transition:transform .45s ease, box-shadow .45s ease, border .45s ease;
+  opacity:0;
+  transform:translateY(26px);
+}
+
+.sponsor-card.show{
+  opacity:1;
+  transform:translateY(0);
+}
+
+/* Hover – clean & premium */
+.sponsor-card:hover{
+  transform:translateY(-10px);
+  box-shadow:0 35px 90px rgba(30,58,138,0.25);
+  border:1px solid rgba(59,130,246,0.45);
+}
+
+/* ---------- LOGO ---------- */
+.sponsor-card img{
+  height:46px;
+  object-fit:contain;
+  margin-bottom:14px;
+}
+
+/* ---------- NAME ---------- */
+.sponsor-name{
+  font-size:14.5px;
+  font-weight:600;
+  color:var(--dark);
+  letter-spacing:0.3px;
+}
+
+/* ---------- RESPONSIVE ---------- */
+@media(max-width:992px){
+  .tier-grid{
+    grid-template-columns:repeat(2,1fr);
+  }
+}
+
+@media(max-width:520px){
+  .tier-grid{
+    grid-template-columns:1fr;
+  }
+  .sponsors-title{
+    font-size:30px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<section class="sponsors-section">
+
+  <h2 class="sponsors-title">Our Industry Sponsors</h2>
+  <p class="sponsors-subtitle">
+    Proudly supported by industry leaders who inspire innovation,
+    technical excellence, and future-ready engineers.
+  </p>
+
+  <!-- PLATINUM -->
+  <div class="tier">
+    <div class="tier-title">Platinum Sponsors</div>
+    <div class="tier-grid">
+
+      <div class="sponsor-card reveal">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Siemens-logo.svg">
+        <div class="sponsor-name">Siemens</div>
+      </div>
+
+      <div class="sponsor-card reveal">
+<img src="http://purepng.com/public/uploads/large/purepng.com-intel-logologobrand-logoiconslogos-251519939644r68ft.png" alt="Intel logo">        <div class="sponsor-name">Schneider Electric</div>
+      </div>
+
+      <div class="sponsor-card reveal">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg">
+        <div class="sponsor-name">Microsoft</div>
+      </div>
+
+      <div class="sponsor-card reveal">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg">
+        <div class="sponsor-name">Google</div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- GOLD -->
+  <div class="tier">
+    <div class="tier-title">Gold Sponsors</div>
+    <div class="tier-grid">
+
+      <div class="sponsor-card reveal">
+<img src="http://purepng.com/public/uploads/large/purepng.com-intel-logologobrand-logoiconslogos-251519939644r68ft.png" 
+     alt="Intel logo">
+             <div class="sponsor-name">Intel</div>
+      </div>
+
+      <div class="sponsor-card reveal">
+<img src="https://tse3.mm.bing.net/th/id/OIP.DBwD396s7DYHA39JQumhcgHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" 
+     alt="Smart sensor device">
+          <div class="sponsor-name">ABB</div>
+      </div>
+
+      <div class="sponsor-card reveal">
+<img src="http://logos-download.com/wp-content/uploads/2016/08/Honeywell_logo.png" 
+     alt="Honeywell logo">
+      <div class="sponsor-name">Honeywell</div>
+      </div>
+
+      <div class="sponsor-card reveal">
+<img src="https://logos-world.net/wp-content/uploads/2020/08/Bosch-Emblem.png" 
+     alt="Bosch emblem">
+             <div class="sponsor-name">Bosch</div>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
+<!-- SCROLL REVEAL -->
+<script>
+const cards = document.querySelectorAll('.reveal');
+
+const observer = new IntersectionObserver(entries=>{
+  entries.forEach(entry=>{
+    if(entry.isIntersecting){
+      entry.target.classList.add('show');
+    }
+  });
+},{ threshold:0.15 });
+
+cards.forEach(card=>observer.observe(card));
+</script>
+
+</body>
+</html>

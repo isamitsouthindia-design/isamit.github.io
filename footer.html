@@ -1,0 +1,242 @@
+<!-- ============ FONT AWESOME ICONS ============ -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer" id="siteFooter">
+
+  <div class="footer-container">
+
+    <!-- LEFT -->
+    <div class="footer-about">
+      <h3>ISA MIT Student Chapter</h3>
+      <p>
+        Empowering future automation engineers through technical learning,
+        industry exposure, and hands-on innovation at
+        <strong>Madras Institute of Technology</strong>.
+      </p>
+
+      <div class="social-links">
+        <a href="https://www.instagram.com/isa_mit_student_chapter/?utm_source=ig_web_button_share_sheet" target="_blank">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/mit-isa-south-india-section-student-chapter-277794348?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a href="https://www.isa.org/" target="_blank">
+          <i class="fa-solid fa-globe"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- CENTER -->
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li>
+          <a href="https://www.auegov.ac.in/Department/instru" target="_blank">
+            <i class="fa-solid fa-microchip"></i>
+            Instrumentation Dept – MIT
+          </a>
+        </li>
+        <li>
+          <a href="https://www.isa.org/" target="_blank">
+            <i class="fa-solid fa-gear"></i>
+            ISA Global
+          </a>
+        </li>
+        <li>
+          <a href="https://www.auegov.ac.in/" target="_blank">
+            <i class="fa-solid fa-university"></i>
+            Anna University
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- RIGHT -->
+    <div class="footer-contact">
+      <h4>Visit Us</h4>
+
+      <div class="map-card">
+        <i class="fa-solid fa-location-dot map-icon"></i>
+        <div>
+          <p class="campus-name">Madras Institute of Technology</p>
+          <p class="campus-address">
+            Anna University, Chromepet<br>
+            Chennai – 600044
+          </p>
+
+          <a class="map-btn"
+             href="https://www.google.com/maps/place/Madras+Institute+of+Technology,+Anna+University/@12.9415371,80.1330378,15z"
+             target="_blank">
+            <i class="fa-solid fa-map-location-dot"></i>
+            Open Maps
+          </a>
+        </div>
+      </div>
+
+      <p class="help-line">
+        <i class="fa-solid fa-phone-volume"></i>
+        +91 94447 92596
+      </p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2025 ISA MIT Student Chapter. All rights reserved.
+  </div>
+
+</footer>
+
+<!-- ============ STYLES ============ -->
+<style>
+:root{
+  --blue:#2563eb;
+  --dark-bg:#0f172a;
+  --dark-card:#111827;
+  --text:#e5e7eb;
+  --muted:#9ca3af;
+}
+
+/* BASE */
+.site-footer{
+  background:var(--dark-bg);
+  color:var(--text);
+  padding:50px 18px 26px;
+}
+
+/* GRID */
+.footer-container{
+  max-width:1200px;
+  margin:auto;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+  gap:32px;
+}
+
+/* ABOUT */
+.footer-about h3{
+  font-size:20px;
+  margin-bottom:10px;
+  color:var(--blue);
+}
+
+.footer-about p{
+  font-size:14px;
+  line-height:1.7;
+  color:var(--muted);
+}
+
+/* SOCIAL */
+.social-links{
+  margin-top:14px;
+}
+
+.social-links a{
+  margin-right:14px;
+  font-size:22px;
+  color:var(--blue);
+  transition:0.3s;
+}
+
+.social-links a:hover{
+  transform:translateY(-3px);
+}
+
+/* LINKS */
+.footer-links h4,
+.footer-contact h4{
+  font-size:17px;
+  margin-bottom:12px;
+}
+
+.footer-links ul{
+  list-style:none;
+}
+
+.footer-links li{
+  margin-bottom:10px;
+}
+
+.footer-links a{
+  text-decoration:none;
+  font-size:14px;
+  color:var(--muted);
+}
+
+.footer-links i{
+  color:var(--blue);
+  margin-right:8px;
+}
+
+/* MAP */
+.map-card{
+  background:var(--dark-card);
+  border-radius:14px;
+  padding:14px;
+  margin-bottom:14px;
+}
+
+.map-icon{
+  font-size:26px;
+  color:var(--blue);
+  margin-bottom:8px;
+}
+
+.campus-name{
+  font-size:15px;
+  font-weight:600;
+}
+
+.campus-address{
+  font-size:13px;
+  color:var(--muted);
+  margin:6px 0 10px;
+}
+
+.map-btn{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  background:var(--blue);
+  color:white;
+  padding:8px 14px;
+  border-radius:18px;
+  font-size:13px;
+  text-decoration:none;
+}
+
+/* CONTACT */
+.help-line{
+  font-size:14px;
+  color:var(--muted);
+}
+
+.help-line i{
+  color:var(--blue);
+  margin-right:6px;
+}
+
+/* BOTTOM */
+.footer-bottom{
+  margin-top:26px;
+  padding-top:14px;
+  text-align:center;
+  font-size:13px;
+  color:var(--muted);
+  border-top:1px solid rgba(255,255,255,0.08);
+}
+
+/* MOBILE */
+@media(max-width:768px){
+  .site-footer{
+    text-align:center;
+    padding:40px 16px 22px;
+  }
+
+  .social-links a{
+    margin:0 10px;
+  }
+}
+</style>
