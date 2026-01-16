@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Past Challenges | ISA MIT</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link href="../CSS/pastevents.css" rel="stylesheet">
+</head>
+
+<body>
+
+<section class="page-header">
+  <h1>Past Technical Challenges</h1>
+  <p>
+    Hands-on industrial automation challenges covering sensors, control systems,
+    PLCs, and IoT-based integration.
+  </p>
+</section>
+
+<section class="container">
+<div class="grid">
+
+<!-- 1 -->
+<div class="card" onclick="openModal(0)">
+  <div class="card-img">
+    <img src="https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2016/11/close-up-of-sensor.jpg?w=1250&h=1120&crop=1">
+    <span>Instrumentation</span>
+  </div>
+  <div class="card-content">
+    <h3>Sensors & Process Dynamics</h3>
+    <p>Understanding sensor behavior and process response.</p>
+    <span class="card-btn">Explore →</span>
+  </div>
+</div>
+
+<div class="card" onclick="openModal(0)">
+  <div class="card-img">
+    <img src="https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2016/11/close-up-of-sensor.jpg?w=1250&h=1120&crop=1">
+    <span>Instrumentation</span>
+  </div>
+  <div class="card-content">
+    <h3>Sensors & Process Dynamics</h3>
+    <p>Understanding sensor behavior and process response.</p>
+    <span class="card-btn">Explore →</span>
+  </div>
+</div>
+
+<!-- 2 -->
+<div class="card" onclick="openModal(1)">
+  <div class="card-img">
+    <img src="https://www.founderjar.com/wp-content/uploads/2022/01/business-process-modeling.jpeg">
+    <span>Control</span>
+  </div>
+  <div class="card-content">
+    <h3>Process Modelling</h3>
+    <p>Transfer function and simulation-based modeling.</p>
+    <span class="card-btn">Explore →</span>
+  </div>
+</div>
+
+<!-- 3 -->
+<div class="card" onclick="openModal(2)">
+  <div class="card-img">
+    <img src="https://tse2.mm.bing.net/th/id/OIP.rOii8a-Dof8rgGWRKSH0HQHaE-?rs=1">
+    <span>PID</span>
+  </div>
+  <div class="card-content">
+    <h3>Controller Selection & Tuning</h3>
+    <p>PID selection, tuning and stability analysis.</p>
+    <span class="card-btn">Explore →</span>
+  </div>
+</div>
+
+
+<!-- 4 -->
+<div class="card" onclick="openModal(3)">
+  <div class="card-img">
+    <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=1200&q=80">
+    <span>PLC</span>
+  </div>
+  <div class="card-content">
+    <h3>Storage & Transportation Automation</h3>
+    <p>Material handling and logistics using PLCs.</p>
+    <span class="card-btn">Explore →</span>
+  </div>
+</div>
+
+<!-- 5 -->
+<div class="card" onclick="openModal(4)">
+  <div class="card-img">
+    <img src="https://miro.medium.com/v2/resize:fit:1200/1*ZwtBTxXFxRTzjM6IpFBRgg.jpeg">
+    <span>IoT</span>
+  </div>
+  <div class="card-content">
+    <h3>IoT System Design</h3>
+    <p>Connected monitoring and control systems.</p>
+    <span class="card-btn">Explore →</span>
+  </div>
+</div>
+
+<!-- 6 -->
+<div class="card" onclick="openModal(5)">
+  <div class="card-img">
+    <img src="https://tse3.mm.bing.net/th/id/OIP.YwqDKOlp_j8XirODzd1rKgHaDt?rs=1">
+    <span>Integration</span>
+  </div>
+  <div class="card-content">
+    <h3>Automation & Control Integration</h3>
+    <p>End-to-end industrial automation workflows.</p>
+    <span class="card-btn">Explore →</span>
+  </div>
+</div>
+
+<div class="card" onclick="openModal(5)">
+  <div class="card-img">
+    <img src="https://tse3.mm.bing.net/th/id/OIP.YwqDKOlp_j8XirODzd1rKgHaDt?rs=1">
+    <span>Integration</span>
+  </div>
+  <div class="card-content">
+    <h3>Automation & Control Integration</h3>
+    <p>End-to-end industrial automation workflows.</p>
+    <span class="card-btn">Explore →</span>
+  </div>
+</div>
+
+
+</div>
+</section>
+
+<!-- MODAL -->
+<div class="modal" id="modal">
+  <div class="modal-box">
+    <span class="close" onclick="closeModal()">×</span>
+    <h2 id="mTitle"></h2>
+    <p id="mDesc"></p>
+  </div>
+</div>
+
+<script src="../JS/pastEvents.js"></script>
+
+</body>
+</html>

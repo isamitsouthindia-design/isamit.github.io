@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link href="../CSS/registration.css" rel="stylesheet">
+<title>Join Tech Innovators Club</title>
+
+</head>
+
+<body>
+
+<section class="join-section">
+  <div class="ui-frame">
+    <div class="join-container">
+
+      <h1>Join the Tech Innovators Club Today!</h1>
+      <p>
+        Ready to embark on a journey of innovation and collaboration?
+        Fill out the form below to become a member of the Tech Innovators Club.
+        We welcome students from all disciplines and experience levels.
+      </p>
+
+      <div class="form-card">
+        <form onsubmit="submitForm(event)">
+
+          <div class="form-row">
+            <div class="form-group">
+              <label>First Name</label>
+              <input type="text" required placeholder="John">
+            </div>
+            <div class="form-group">
+              <label>Last Name</label>
+              <input type="text" required placeholder="Doe">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label>Email</label>
+            <input type="email" required placeholder="john.doe@example.com">
+          </div>
+
+          <div class="form-group">
+            <label>Academic Major</label>
+            <input type="text" placeholder="Computer Science">
+          </div>
+
+          <div class="form-group">
+            <label>What are you interested in?</label>
+            <select>
+              <option>Select your main interest</option>
+              <option>Instrumentation</option>
+              <option>Electronics</option>
+              <option>Robotics</option>
+              <option>Computer Science</option>
+              <option>AI / ML</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label>Tell us about yourself (optional)</label>
+            <textarea placeholder="A brief introduction..."></textarea>
+          </div>
+
+          <div class="checkbox">
+            <input type="checkbox" required>
+            <span>I agree to terms and conditions</span>
+          </div>
+
+          <button type="submit">Join the Club</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<script href="../JS/registration.js">
+</script>
+
+</body>
+</html>
