@@ -1,3 +1,3 @@
 document.getElementById("memberBtn").addEventListener("click", () => {
-  alert("Thanks for your interest! Membership registration coming soon.");
+  window.open("https://www.isa.org/",target="_blank")
 });

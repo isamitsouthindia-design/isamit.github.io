@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>ISA Facilities - Carousel</title>
     <link rel="stylesheet" href="../CSS/a.css"/>
+    <link rel="stylesheet" href="../CSS/footer.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
 </head>
 <body>
@@ -48,7 +49,7 @@
                         <p class="description">
                             A fully-equipped space for prototyping, circuit design, and hands-on experimentation.
                         </p>
-                        <a href="#" class="explore-btn">Explore</a>
+                        <button onclick="openModal(0)" class="explore-btn">Explore</button>
                     </div>
                 </div>
 
@@ -61,7 +62,7 @@
                         <p class="description">
                             High-performance computing workstations optimized for machine learning and data analysis.
                         </p>
-                        <a href="#" class="explore-btn">Explore</a>
+                        <button onclick="openModal(0)" class="explore-btn">Explore</button>
                     </div>
                 </div>
 
@@ -74,7 +75,7 @@
                         <p class="description">
                             Dedicated area for robot assembly, testing, and advanced mechanical engineering.
                         </p>
-                        <a href="#" class="explore-btn">Explore</a>
+                        <button onclick="openModal(0)" class="explore-btn">Explore</button>
                     </div>
                 </div>
 
@@ -88,7 +89,7 @@
                         <p class="description">
                             A fully-equipped space for prototyping, circuit design, and hands-on experimentation.
                         </p>
-                        <a href="#" class="explore-btn">Explore</a>
+                        <a onclick="openModal(0)" class="explore-btn">Explore</a>
                     </div>
                 </div>
 
@@ -101,7 +102,7 @@
                         <p class="description">
                             High-performance computing workstations optimized for machine learning and data analysis.
                         </p>
-                        <a href="#" class="explore-btn">Explore</a>
+                        <a onclick="openModal(0)" class="explore-btn">Explore</a>
                     </div>
                 </div>
             </div>
@@ -113,6 +114,14 @@
         </div>
     </div>
 
+    <!-- MODAL for displaying the information . -->
+<div class="modal" id="modal">
+  <div class="modal-box">
+    <span class="close" onclick="closeModal()">×</span>
+    <h2 id="mTitle"></h2>
+    <p id="mDesc"></p>
+  </div>
+</div>
 
     <!-- ============ FOOTER ============ -->
 <footer class="site-footer" id="siteFooter">
