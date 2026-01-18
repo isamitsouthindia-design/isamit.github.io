@@ -1,16 +1,17 @@
+<!-- upcomingEvents.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<link href="../CSS/registration.css" rel="stylesheet">
-<link rel="stylesheet" href="../CSS/footer.css">
-<title>Join Tech Innovators Club</title>
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Upcoming Events - FutureTech Summit</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="../CSS/upcomingEvents.css"/>
+  <link rel="stylesheet" href="../CSS/footer.css">
 </head>
-
 <body>
 
+    
  <!-- ========== NAVBAR =============  -->
 
 <nav class="navbar">
@@ -23,84 +24,83 @@
         <li class="nav-item"><a href="home.html">Home</a></li>
         <li class="nav-item"><a href="about.html">About</a></li>
         <li class="nav-item"><a href="pastevent.html">Past Events</a></li>
-        <li class="nav-item"><a href="upcomingEvebts_2.html">Upcoming Events</a></li>
+        <li class="nav-item"><a href="upcomingEvebts_2.html" class="active">Upcoming Events</a></li>
         <li class="nav-item"><a href="sponsors.html">Sponsors</a></li>
         <li class="nav-item"><a href="a.html">Lab Facilities</a></li>
-        <li class="nav-item"><a href="registration.html" class="active">Register</a></li>
+        <li class="nav-item"><a href="registration.html">Register</a></li>
     </ul>
 
     <a href="special-page.html">
         <img src="../MIT.png" alt="Right Logo" class="logo">
     </a>
 </nav>
+<!-- ======= Body content =========-->
+  <div class="event-container">
+    <div class="event-split">
+      
+      <!-- LEFT: Image -->
+      <div class="left-image">
+        <img 
+          class="hero-image" 
+          src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=1470&q=90" 
+          alt="Tech conference stage with futuristic visuals"
+        />
+      </div>
 
+      <!-- RIGHT: Content -->
+      <div class="right-content">
+        <!-- Logo placeholder - replace with your <img> -->
+        <div class="logo-placeholder">Your Logo Here</div>
 
-<section class="join-section">
-  <div class="ui-frame">
-    <div class="join-container">
+        <h1 class="title-main">Next Big Thing:<br>FutureTech Summit 2024</h1>
+        
+        <div class="subtitle">Our flagship event bringing tomorrow's technology today</div>
 
-      <h1>Join the Tech Innovators Club Today!</h1>
-      <p>
-        Ready to embark on a journey of innovation and collaboration?
-        Fill out the form below to become a member of the Tech Innovators Club.
-        We welcome students from all disciplines and experience levels.
-      </p>
+        <div class="description">
+          Get ready for the <strong>FutureTech Summit 2024</strong>, our flagship event bringing together industry leaders, innovative startups, and budding student minds. Dive deep into the future of technology with engaging keynotes, interactive workshops, and a thrilling project showcase. This is your chance to network, learn, and be inspired by the forefront of innovation.
+        </div>
 
-      <div class="form-card">
-        <form onsubmit="submitForm(event)">
-
-          <div class="form-row">
-            <div class="form-group">
-              <label>First Name</label>
-              <input type="text" required placeholder="John">
+        <div class="details-grid">
+          <div class="detail-item">
+            <div class="detail-icon"><i class="fas fa-calendar-days"></i></div>
+            <div class="detail-text">
+              <h4>Date & Time</h4>
+              <p>October 26, 2024 • 9:00 AM - 5:00 PM</p>
             </div>
-            <div class="form-group">
-              <label>Last Name</label>
-              <input type="text" required placeholder="Doe">
+          </div>
+
+          <div class="detail-item">
+            <div class="detail-icon"><i class="fas fa-location-dot"></i></div>
+            <div class="detail-text">
+              <h4>Location</h4>
+              <p>University Convention Center, Hall B</p>
             </div>
           </div>
 
-          <div class="form-group">
-            <label>Email</label>
-            <input type="email" required placeholder="john.doe@example.com">
+          <div class="detail-item">
+            <div class="detail-icon"><i class="fas fa-clock"></i></div>
+            <div class="detail-text">
+              <h4>Duration</h4>
+              <p>Full Day Event</p>
+            </div>
           </div>
 
-          <div class="form-group">
-            <label>Academic Major</label>
-            <input type="text" placeholder="Computer Science">
+          <div class="detail-item">
+            <div class="detail-icon"><i class="fas fa-microchip"></i></div>
+            <div class="detail-text">
+              <h4>Focus Areas</h4>
+              <p>AI • Robotics • Web3 • Data Science</p>
+            </div>
           </div>
+        </div>
 
-          <div class="form-group">
-            <label>What are you interested in?</label>
-            <select>
-              <option>Select your main interest</option>
-              <option>Instrumentation</option>
-              <option>Electronics</option>
-              <option>Robotics</option>
-              <option>Computer Science</option>
-              <option>AI / ML</option>
-            </select>
-          </div>
-
-          <div class="form-group">
-            <label>Tell us about yourself (optional)</label>
-            <textarea placeholder="A brief introduction..."></textarea>
-          </div>
-
-          <div class="checkbox">
-            <input type="checkbox" required>
-            <span>I agree to terms and conditions</span>
-          </div>
-
-          <button type="submit">Join the Club</button>
-        </form>
+        <a href="#" class="btn-primary">Learn More & RSVP →</a>
       </div>
 
     </div>
   </div>
-</section>
 
-<!-- ============ FOOTER ============ -->
+  <!-- ============ FOOTER ============ -->
 <footer class="site-footer" id="siteFooter">
 
   <div class="footer-container">
@@ -188,9 +188,6 @@
 
 </footer>
 
-
-<script href="../JS/registration.js">
-</script>
 
 </body>
 </html>

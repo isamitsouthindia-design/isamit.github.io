@@ -21,7 +21,7 @@ body{
 /* ---------- HEADER ---------- */
 .page-header{
   text-align:center;
-  padding:90px 18px 55px;
+  padding:20px 18px 55px;
 }
 
 .page-header h1{
@@ -41,9 +41,9 @@ body{
 
 /* ---------- GRID ---------- */
 .container{
-  max-width:1400px;
+  max-width:1700px;
   margin:auto;
-  padding:0 18px 80px;
+  padding:0 10px 80px;
 }
 
 .grid{
