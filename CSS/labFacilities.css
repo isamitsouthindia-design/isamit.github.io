@@ -57,3 +57,11 @@ body {
 .explore-link:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+
+  body {
+    min-width: 1024px;
+    max-height: 100%;
+  }
+}

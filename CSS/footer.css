@@ -213,7 +213,8 @@
 @media(max-width:768px){
   .site-footer{
     text-align:center;
-    padding:40px 16px 22px;
+    padding:10px 16px 22px;
+    .nav-menu{max-width: 412px;}
   }
 
   .social-links a{

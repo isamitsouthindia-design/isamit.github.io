@@ -114,4 +114,8 @@ body {
   .info-wrapper {
     flex-direction: column;
   }
+  body {
+    min-width: 1024px;
+    max-height: 100%;
+  }
 }

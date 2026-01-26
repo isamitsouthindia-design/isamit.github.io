@@ -119,6 +119,16 @@ body{
     grid-template-columns:repeat(2,1fr);
   }
 }
+  @media (max-width: 768px) {
+  .info-wrapper {
+    flex-direction: column;
+  }
+  body {
+    min-width: 1024px;
+    max-height: 100%;
+  }
+}
+
 
 @media(max-width:520px){
   .tier-grid{

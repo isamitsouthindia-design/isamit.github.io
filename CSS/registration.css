@@ -141,3 +141,12 @@ button:hover {
     flex-direction: column;
   }
 }
+  @media (max-width: 768px) {
+  .info-wrapper {
+    flex-direction: column;
+  }
+  body {
+    min-width: 1024px;
+    max-height: 100%;
+  }
+}
