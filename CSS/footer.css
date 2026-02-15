@@ -4,7 +4,17 @@
   --dark-card:#1a3b89;;
   --text:#e5e7eb;
   --muted:#9ca3af;
+  --primary-blue:#1e40af;
+  --primary-blue-light:#3b82f6;
+  --primary-blue-dark:#1e3a8a;
+  --text-dark:#0f172a;
+  --text-gray:#64748b;
 }
+
+*{
+  font-family:'Inter', system-ui, -apple-system, sans-serif !important;
+}
+
 
    .navbar {
 
@@ -219,5 +229,45 @@
 
   .social-links a{
     margin:0 10px;
+  }
+}
+
+img{
+  max-width:100%;
+  height:auto;
+}
+
+.container,
+.ui-frame,
+.event-promo,
+.info-wrapper{
+  width:100%;
+  padding-left:5vw;
+  padding-right:5vw;
+}
+
+@media (max-width:768px){
+  .info-wrapper{
+    flex-direction:column;
+    gap:30px;
+  }
+
+  .event-promo{
+    grid-template-columns:1fr;
+  }
+
+  .tier-grid{
+    grid-template-columns:1fr;
+  }
+
+  .navbar{
+    height:auto;
+    flex-wrap:wrap;
+    padding:12px 16px;
+  }
+
+  .nav-menu{
+    flex-wrap:wrap;
+    justify-content:center;
   }
 }

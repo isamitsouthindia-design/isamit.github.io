@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Segoe UI", Arial, sans-serif;
 }
 
 body {
@@ -98,8 +97,8 @@ body {
   align-items: center;
   gap: 80px;
   max-width: 1600px;
-  margin: 0px 145px 0px 100px ;
-  padding: 70px 0px;
+  margin: 0 auto;
+  padding: 0 5vw;
 }
 
 .info-image-left img {

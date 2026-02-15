@@ -67,6 +67,9 @@ document.addEventListener('DOMContentLoaded', () => {
         clearInterval(autoScrollInterval);
     }
 
+        window.startAutoScroll = startAutoScroll;
+window.stopAutoScroll = stopAutoScroll;
+
     // Initial setup
     updateDimensions();
     moveTo(0);
@@ -99,21 +102,23 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 const titles=[
-"Sensors & Process Dynamics",
-"Process Modelling",
-"Controller Selection & Tuning",
-"PLC Automation for Storage & Transport",
-"IoT System Design",
-"Automation & Control Integration"
+"Industrial Automation Laboratory",
+"Process Control Laboratory",
+"Flow Laboratory",
+"Transducers Laboratory",
+"Embedded Systems Laboratory",
+"Control Systems Laboratory",
+"Electronics Laboratory"
 ];
 
 const details=[
-"Study of industrial sensors, calibration, noise, and dynamic response.",
-"Process modeling using transfer functions and simulation tools.",
-"PID controller tuning with focus on stability and performance.",
-"PLC logic for automated storage and transportation systems.",
-"IoT architectures for real-time monitoring and dashboards.",
-"Complete integration of sensors, PLCs, controllers, and IoT."
+"Introduces PLCs, SCADA, and automation networks for industrial environments. Students design ladder logic and implement automated control for manufacturing and process industries.",
+"Covers monitoring and regulation of industrial processes like temperature, pressure, and level. Emphasis is placed on PID tuning, system response, and maintaining efficiency and safety.",
+"Explores principles of fluid mechanics and flow measurement techniques. Students work with various flow meters to analyze characteristics, calibration, and performance under different conditions.",
+"Studies sensors that convert physical quantities into electrical signals. Includes calibration, signal conditioning, and understanding performance characteristics such as sensitivity and hysteresis.",
+"Centers on microcontrollers, real-time programming, and hardware interfacing. Learners develop compact, efficient systems integrating sensors, communication modules, and control logic.",
+"Focuses on modeling and analyzing dynamic systems using feedback principles. Students design and tune controllers to achieve stability, accuracy, and optimal performance in real-time applications.",
+"Provides hands-on experience with analog and digital circuit design. Students test components, analyze waveforms, and build functional electronic systems for practical applications."
 ];
 
 function openModal(i){

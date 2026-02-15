@@ -40,12 +40,119 @@
         <div class="carousel" id="carousel">
             <div class="carousel-track" id="track">
                 <!-- Original cards -->
+
+                 <!-- ===== CARD 1 ===== -->
+
                 <div class="card">
                     <div class="logo-container">
-                        <div class="isa-logo">ISA</div>
+                        <img src="../Images/Lab_Images/Automation_Lab.jpeg" alt="ISA Logo" class="isa-logo-img">
                     </div>
                     <div class="content">
-                        <div class="title">Innovation Lab</div>
+                        <div class="title">Automation Lab</div>
+                        <p class="description">
+                            A fully-equipped space for implement PLC and DCS based automation for efficient industrial operations.
+                        </p>
+                        <button onclick="openModal(0)" class="explore-btn">Explore</button>
+                    </div>
+                </div>
+
+                <!-- ===== CARD 2 ===== -->
+
+                <div class="card">
+                    <div class="logo-container">
+                        <img src="../Images/Lab_Images/Process_Control_Lab.jpeg" alt="ISA Logo" class="isa-logo-img">
+                    </div>
+                    <div class="content">
+                        <div class="title">Process Lab</div>
+                        <p class="description">
+                            Monitor and regulate industrial processes using advanced control strategies.
+                        </p>
+                        <button onclick="openModal(1)" class="explore-btn">Explore</button>
+                    </div>
+                </div>
+
+                <!-- ===== CARD 3 ===== -->
+
+                <div class="card">
+                    <div class="logo-container">
+                          <img src="../Images/Lab_Images/Flow_Lab.jpeg" alt="ISA Logo" class="isa-logo-img">
+                    </div>
+                    <div class="content">
+                        <div class="title">Flow Lab</div>
+                        <p class="description">
+                            Dedicated area for the study of fluid flow measurement, dynamics, and instrumentation techniques.
+                        </p>
+                        <button onclick="openModal(2)" class="explore-btn">Explore</button>
+                    </div>
+                </div>
+
+                <!-- ===== CARD 4 ===== -->
+
+                <div class="card">
+                    <div class="logo-container">
+                        <img src="../Images/Lab_Images/Transduvcers.jpeg" alt="ISA Logo" class="isa-logo-img">
+                    </div>
+                    <div class="content">
+                        <div class="title">Transducers Lab</div>
+                        <p class="description">
+                            A fully-equipped space for exploring sensors converting physical parameters into measurable electrical signals.
+                        </p>
+                        <button onclick="openModal(3)" class="explore-btn">Explore</button>
+                    </div>
+                </div>
+
+                <!-- ===== CARD 5 ===== -->
+
+                <div class="card">
+                    <div class="logo-container">
+                        <img src="../Images/Lab_Images/Embedded_Systems.jpeg" alt="ISA Logo" class="isa-logo-img">
+                    </div>
+                    <div class="content">
+                        <div class="title">Embedded Systems Lab</div>
+                        <p class="description">
+                            High-performance computing workstations optimized for developing embedded systems for real-time applications.
+                        </p>
+                        <button onclick="openModal(4)" class="explore-btn">Explore</button>
+                    </div>
+                </div>
+
+                <!-- ===== CARD 6 ===== -->
+
+                <div class="card">
+                    <div class="logo-container">
+                        <img src="../Images/Lab_Images/Controls.jpeg" alt="ISA Logo" class="isa-logo-img">
+                    </div>
+                    <div class="content">
+                        <div class="title">Control Systems Lab</div>
+                        <p class="description">
+                            Design and analyze feedback systems for stability and performance.
+                        </p>
+                        <button onclick="openModal(5)" class="explore-btn">Explore</button>
+                    </div>
+                </div>
+                <!-- ===== CARD 7 ===== -->
+
+                <div class="card">
+                    <div class="logo-container">
+                        <img src="../Images/Lab_Images/Electronics.jpeg" alt="ISA Logo" class="isa-logo-img">
+                    </div>
+                    <div class="content">
+                        <div class="title">Electronics Lab</div>
+                        <p class="description">
+                            A fully-equipped space for design, test, and analyze analog and digital electronic circuits
+                        </p>
+                        <button onclick="openModal(6)" class="explore-btn">Explore</button>
+                    </div>
+                </div>
+
+                <!-- ===== CARD Duplicate - 1 ===== -->
+
+                <div class="card">
+                    <div class="logo-container">
+                        <img src="../Images/Lab_Images/Automation_Lab.jpeg" alt="ISA Logo" class="isa-logo-img">
+                    </div>
+                    <div class="content">
+                        <div class="title">Automation Lab</div>
                         <p class="description">
                             A fully-equipped space for prototyping, circuit design, and hands-on experimentation.
                         </p>
@@ -53,36 +160,26 @@
                     </div>
                 </div>
 
-                <div class="card">
-                    <div class="logo-container">
-                        <div class="isa-logo">ISA</div>
-                    </div>
-                    <div class="content">
-                        <div class="title">AI & Data Science Suite</div>
-                        <p class="description">
-                            High-performance computing workstations optimized for machine learning and data analysis.
-                        </p>
-                        <button onclick="openModal(0)" class="explore-btn">Explore</button>
-                    </div>
-                </div>
+                <!-- ===== CARD Duplicate -- 2 ===== -->
 
                 <div class="card">
                     <div class="logo-container">
-                        <div class="isa-logo">ISA</div>
+                        <img src="../Images/Lab_Images/Process_Control_Lab.jpeg" alt="ISA Logo" class="isa-logo-img">
                     </div>
                     <div class="content">
-                        <div class="title">Robotics Workshop</div>
+                        <div class="title">Process Lab</div>
                         <p class="description">
-                            Dedicated area for robot assembly, testing, and advanced mechanical engineering.
+                            High-performance computing workstations optimized for machine learning and data analysis.
                         </p>
-                        <button onclick="openModal(0)" class="explore-btn">Explore</button>
+                        <button onclick="openModal(1)" class="explore-btn">Explore</button>
                     </div>
                 </div>
+
 
                 <!-- Duplicates for infinite loop -->
                 <div class="card">
                     <div class="logo-container">
-                        <div class="isa-logo">ISA</div>
+                        <img src="../ISA_OB.png" alt="ISA Logo" class="isa-logo-img">
                     </div>
                     <div class="content">
                         <div class="title">Innovation Lab</div>
@@ -95,7 +192,7 @@
 
                 <div class="card">
                     <div class="logo-container">
-                        <div class="isa-logo">ISA</div>
+                        <img src="../ISA_OB.png" alt="ISA Logo" class="isa-logo-img">
                     </div>
                     <div class="content">
                         <div class="title">AI & Data Science Suite</div>
