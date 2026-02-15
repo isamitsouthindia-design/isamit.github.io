@@ -108,7 +108,7 @@ body {
   min-width: 500px;
 }
 
-/* Mobile */
+/* Mobile 
 @media (max-width: 768px) {
   .info-wrapper {
     flex-direction: column;
@@ -118,3 +118,5 @@ body {
     max-height: 100%;
   }
 }
+
+*/

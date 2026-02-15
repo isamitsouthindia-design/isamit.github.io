@@ -15,6 +15,14 @@
   font-family:'Inter', system-ui, -apple-system, sans-serif !important;
 }
 
+.fa,
+.fa-solid,
+.fa-brands,
+.fa-regular {
+  font-family: "Font Awesome 6 Free", "Font Awesome 6 Brands" !important;
+}
+
+
 
    .navbar {
 

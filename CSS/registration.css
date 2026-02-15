@@ -5,7 +5,7 @@
 
 body {
   margin: 0;
-  background: #fbf4ea;
+  background: #ffffff;
   color: #1f2937;
 }
 
@@ -15,17 +15,17 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 40px 20px;
+  padding: 40px 0px;
+  background: url("../Images/BackGroundImage.png") center/cover no-repeat; /* ISA themed image */ 
+  background-size: contain; /* scales image proportionally to fill */ 
+  background-attachment: fixed; /* optional: creates a parallax effect */
 }
 
 /* ---------------- UI FRAME ---------------- */
 .ui-frame {
   width: 100%;
   max-width: 1100px;
-  background: #fbf4ea;
-  border: 2px solid #e5e7eb;
-  border-radius: 18px;
-  padding: 40px 30px;
+
   box-shadow: 0 20px 50px rgba(0,0,0,0.08);
 }
 
@@ -54,13 +54,17 @@ body {
 /* ---------------- FORM CARD ---------------- */
 .form-card {
   background: #ffffff;
-  max-width: 420px;
+  max-width: 900px;
   margin: auto;
   padding: 30px;
   border-radius: 14px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.06);
-  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
+
+
 
 /* ---------------- FORM GRID ---------------- */
 .form-row {
@@ -134,7 +138,31 @@ button:hover {
   background: #3b82f6;
 }
 
-/* ---------------- RESPONSIVE ---------------- */
+.form-card {
+  background: #ffffff;
+  max-width: 800px;       /* wider to fit both QR + text */
+  margin: auto;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+  display: flex;          /* enable side-by-side */
+  align-items: center;    /* vertical alignment */
+  gap: 30px;              /* spacing between QR and text */
+}
+
+.qr-block {
+  flex: 0 0 250px;        /* fixed width for QR */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-block {
+  flex: 1;                /* text takes remaining space */
+}
+
+
+/* ---------------- RESPONSIVE ---------------- 
 @media (max-width: 480px) {
   .form-row {
     flex-direction: column;
@@ -149,3 +177,6 @@ button:hover {
     max-height: 100%;
   }
 }
+
+*/
+

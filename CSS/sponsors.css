@@ -112,7 +112,7 @@ body{
   letter-spacing:0.3px;
 }
 
-/* ---------- RESPONSIVE ---------- */
+/* ---------- RESPONSIVE ---------- 
 @media(max-width:992px){
   .tier-grid{
     grid-template-columns:repeat(2,1fr);
@@ -137,3 +137,6 @@ body{
     font-size:30px;
   }
 }
+
+*/
+

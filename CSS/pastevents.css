@@ -183,7 +183,7 @@ body{
   cursor:pointer;
 }
 
-/* ---------- MOBILE ---------- */
+/* ---------- MOBILE ---------- 
 @media(max-width:768px){
   body {
     min-width: 1024px;
@@ -192,3 +192,6 @@ body{
   .page-header h1{font-size:15px}
   .card-img{height:165px}
 }
+
+*/
+
